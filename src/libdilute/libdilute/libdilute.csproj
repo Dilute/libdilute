@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Package.cs" />
+    <Compile Include="XmlParser.cs" />
     <Compile Include="Dilute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
