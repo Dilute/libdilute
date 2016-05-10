@@ -1,0 +1,22 @@
+<?xml version="1.0"/?>
+<!-- Package list for the Dilute core libraries repository -->
+<packagelist>
+    <package>
+        <id>libdilute</id>
+        <type>library</type>
+        <downloads>
+            <download>
+                <version>1.0.0</version>
+                <arch>x86</arch>
+                <url>/packages/com/dilute/x86/libdilute_x86_1.0.0.zip</url>
+                <license>/LICENSE</license>
+            </download>
+            <download>
+                <version>1.0.0</version>
+                <arch>x64</arch>
+                <url>/packages/com/dilute/x64/libdilute_x64_1.0.0.zip</url>
+                <license>/LICENSE</license>
+            </download>
+        </downloads>
+    </package>
+</packagelist>
