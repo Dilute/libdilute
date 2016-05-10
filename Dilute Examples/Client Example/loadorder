@@ -1,0 +1,6 @@
+# Load order: highest are loaded first
+# Note that this file will be automatically generated whenever you install, uninstall or update a mod
+libraries/libdilute
+libraries/libcvmp
+libraries/libcvmp_extra
+mods/bettergrass

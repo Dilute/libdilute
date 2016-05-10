@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- Cached information from the package-list that this library was downloaded from -->
+<package>
+    <id>libcvmp</id>
+    <type>library</type>
+    <downloads>
+        <download>
+            <version>1.1.0</version>
+            <arch>x86,x64</arch>
+            <url>/packages/cvmp/libcvmp_v1.1.0.zip</url>
+            <license>/LICENSE</license>
+        </download>
+        <download>
+            <version>1.0.0</version>
+            <arch>x86,x64</arch>
+            <url>/packages/cvmp/libcvmp_v1.0.0.zip</url>
+            <license>/LICENSE</license>
+        </download>
+    </downloads>
+    <requirements>
+        <package>
+            <id>libdilute</id>
+            <repo>https://raw.githubusercontent.com/Dilute/libdilute/stable</repo>
+            <version>1.2.0</version>
+        </package>
+    </requirements>
+</package>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- Package list for the Dilute core libraries repository -->
+<packagelist>
+    <package>
+        <id>libdilute</id>
+        <type>library</type>
+        <downloads>
+            <download>
+                <version>1.2.0</version>
+                <arch>x86,x64</arch>
+                <url>/packages/com/dilute/libdilute_1.2.0.zip</url>
+                <license>/LICENSE</license>
+                <message>This is the newest stable version.</message>
+            </download>
+            <download>
+                <version>1.1.2</version>
+                <arch>x86,x64</arch>
+                <url>/packages/com/dilute/old/libdilute_1.1.2.zip</url>
+                <license>/LICENSE</license>
+                <message>This is the extended support release for the 1.1 series of Dilute versions.</message>
+            </download>
+            <download>
+                <version>1.1.1</version>
+                <arch>x86,x64</arch>
+                <url>/packages/com/dilute/old/libdilute_1.1.1.zip</url>
+                <license>/LICENSE</license>
+                <deprecated>Deprecated. Scheduled for removal on 21-05-2016.\nUse 1.1.2 or 1.2.0 instead.</deprecated>
+            </download>
+            <download>
+                <version>1.1.0</version>
+                <arch>x86,x64</arch>
+                <url>/packages/com/dilute/old/libdilute_1.1.0.zip</url>
+                <license>/LICENSE</license>
+                <deprecated>Deprecated. Scheduled for removal on 01-05-2016.\nUse 1.1.2 or 1.2.0 instead.</deprecated>
+            </download>
+        </downloads>
+    </package>
+</packagelist>
