@@ -1,7 +1,7 @@
 ﻿namespace libdilute
 {
     /// <summary>
-    /// Different levels of severity for messages recieved via <see cref="Dilute.nextMessage"/>.
+    /// Different levels of severity for messages recieved via <see cref="Dilute.NextMessage"/>.
     /// </summary>
     public enum Level
     {

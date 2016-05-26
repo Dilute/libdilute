@@ -76,8 +76,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Download.cs" />
     <Compile Include="Level.cs" />
     <Compile Include="Package.cs" />
+    <Compile Include="PackageType.cs" />
+    <Compile Include="Requirement.cs" />
     <Compile Include="XmlParser.cs" />
     <Compile Include="Dilute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

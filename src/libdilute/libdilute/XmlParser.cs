@@ -39,10 +39,10 @@ namespace libdilute
                     }
                     return ret;
                 }
-                Dilute.error("Failed to parse PackageList XML: Expected top-level 'packagelist' tag, but got top-level '" + doc.FirstChild.Name + "' tag instead");
+                Dilute.Error("Failed to parse PackageList XML: Expected top-level 'packagelist' tag, but got top-level '" + doc.FirstChild.Name + "' tag instead");
                 return null;
             }
-            Dilute.error("Failed to parse PackageList XML: Expected top-level 'packagelist' tag, but got null instead");
+            Dilute.Error("Failed to parse PackageList XML: Expected top-level 'packagelist' tag, but got null instead");
             return null;
         }
 
@@ -51,6 +51,7 @@ namespace libdilute
         /// </summary>
         /// <param name="stream">The stream to read the XML file from.</param>
         /// <returns>A <see cref="Package"/> instance describing the information in the XML document.</returns>
+        // TODO Probably useless now that library_info and mod_info have been changed
         public static Package ParsePackage(Stream stream)
         {
             XmlDocument doc = new XmlDocument();
@@ -61,10 +62,10 @@ namespace libdilute
                 {
                     return new Package(doc.FirstChild);
                 }
-                Dilute.error("Failed to parse Package XML: Expected top-level 'package' tag, but got top-level '" + doc.FirstChild.Name + "' tag instead");
+                Dilute.Error("Failed to parse Package XML: Expected top-level 'package' tag, but got top-level '" + doc.FirstChild.Name + "' tag instead");
                 return null;
             }
-            Dilute.error("Failed to parse Package XML: Expected top-level 'package' tag, but got null instead");
+            Dilute.Error("Failed to parse Package XML: Expected top-level 'package' tag, but got null instead");
             return null;
         }
     }

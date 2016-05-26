@@ -14,23 +14,23 @@
         </downloads>
         <requirements>
             <!-- Relying on other libraries to include libraries that you need is bad practice, so we make sure to include libdilute here. -->
-            <package>
+            <requirement>
                 <id>libdilute</id>
                 <repo>https://raw.githubusercontent.com/Dilute/libdilute/stable</repo>
                 <version>1.2.0</version>
-            </package>
-            </package>
+            </requirement>
+            </requirement>
             <!-- Require libcvmp just in case libcvmp_extra becomes standalone at some point -->
-            <package>
+            <requirement>
                 <id>libcvmp</id>
                 <repo>https://repo.cvmpproject.com/stable</repo>
                 <version>1.1.0</version>
-            </package>
-            <package>
+            </requirement>
+            <requirement>
                 <id>libcvmp_extra</id>
                 <repo>https://repo.cvmpproject.com/stable</repo>
                 <version>1.1.0</version>
-            </package>
+            </requirement>
         </requirements>
-</package>
+    </package>
 </packagelist>

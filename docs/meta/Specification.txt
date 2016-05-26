@@ -1,0 +1,60 @@
+Specification for Dilute Metadata (.meta) files
+-------------------------------------------------------
+
+Dilute Metadata files are simple files containing information
+related to the download of cached files.
+
+They are simple text files where every line can be either
+a comment or an attribute related to the download.
+
+Custom markup for Notepad++ is provided alongside this documentation
+(see /docs/meta/Markup for Notepad++.xml).
+
+
+
+Attributes
+-------------------------------------------------------
+
+Every attribute begins with the name of the attribute,
+followed by a colon.
+
+The supported attributes are:
+- type: The type of file that was downloaded. Currently supported:
+    - Compressed File
+        => .zip files containing mods or libraries
+    - Repository Icon
+        => Image file that will be used as a repository icon
+    - License
+        => Text file that will be used as a license that the user
+           has to accept in order to use the mod / library
+    - Package Index
+        => XML 
+- 
+
+Example
+------------
+
+type: Compressed File
+reason: Manual Installation
+url: http://testrepo.mysite.com/packages/test.zip
+repo: http://testrepo.mysite.com/
+date: 14-01-2015-15:23
+
+
+
+Comments
+-------------------------------------------------------
+
+Comments are initiated by a number sign (#) at the beginning of a line.
+The entire line is then treated as a comment and will not be evaluated.
+
+Example
+------------
+
+# Metadata for test.zip
+type: Compressed File
+reason: Manual Installation
+#reason: This line will not be evaluated
+url: http://testrepo.mysite.com/packages/test.zip
+repo: http://testrepo.mysite.com/
+date: 14-01-2015-15:23
